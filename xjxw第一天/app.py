@@ -39,4 +39,5 @@ def create_app(config):
     # 为全局的日志工具对象（flask app使用的）添加日志记录器
     logging.getLogger().addHandler(file_log_handler)
     app.logger_xjzx = logging
+    CSRFProtect(app)
     return app

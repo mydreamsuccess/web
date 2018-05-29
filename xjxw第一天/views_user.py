@@ -1,6 +1,6 @@
 import re
 from flask import Blueprint,make_response,session
-from flask import current_app
+from flask import current_app,render_template
 
 from utils.captcha.captcha import captcha
 from utils.ytx_sdk import ytx_send
@@ -9,7 +9,8 @@ from flask import jsonify
 import random
 from models import db,UserInfo
 user_blueprint=Blueprint('user',__name__,url_prefix='/user')
-
+import functools
+from flask import redirect
 @user_blueprint.route('/image_yzm')
 def image_yzm():
     name,yzm,buffer=captcha.generate_captcha()
@@ -100,3 +101,89 @@ def login():
 def logout():
     session.pop('user_id')
     return jsonify(result=1)
+
+def login_required(f):
+    @functools.wraps(f)
+    def fun2(*args,**kwargs):
+        if "user_id" not in session:
+            return redirect("/")
+        return f(*args,**kwargs)
+    return fun2
+
+
+@user_blueprint.route('/')
+@login_required
+def index():
+    user_id=session['user_id']
+    user=UserInfo.query.get(user_id)
+    return render_template("news/user.html",user=user,title="用户中心")
+
+
+@user_blueprint.route('/base',methods=["GET","POST"])
+@login_required
+def base():
+    user_id=session["user_id"]
+    user=UserInfo.query.get(user_id)
+    # print("111111111111111111111111111111111")
+    if request.method=='GET':
+        # print("999999999999999999999999")
+        return render_template("news/user_base_info.html",user=user)
+
+    elif request.method=='POST':
+        dict1=request.form
+        signature=dict1.get('signature')
+        nick_name=dict1.get('nick_name')
+        gender=dict1.get('gender')
+        print(signature)
+        print(nick_name)
+        user.signature=signature
+        user.nick_name=nick_name
+        user.gender=bool(gender)
+        # print("22222222222")
+        try:
+            db.session.commit()
+        except:
+            current_app.logger_xjzx.error('修改用户基本信息连接数据库失败')
+            return jsonify(result=2)
+        print("8888888888")
+        return jsonify(result=1)
+
+@user_blueprint.route('/pic',methods=['GET','POST'])
+@login_required
+def pic():
+    user_id=session["user_id"]
+    user=UserInfo.query.get(user_id)
+    if request.method=='GET':
+        return render_template('news/user_pic_info.html',user=user)
+    elif request.method=='POST':
+        f1=request.files.get('avatar')
+        from utils.qiniu_xjzx import upload_pic
+        f1_name=upload_pic(f1)
+        user.avatar=f1_name
+        db.session.commit()
+        return jsonify(result=1,avatar_url=user.avatar_url)
+
+@user_blueprint.route('/follow')
+@login_required
+def follow():
+    return render_template('news/user_follow.html')
+
+@user_blueprint.route('/pwd')
+@login_required
+def pwd():
+    return render_template('news/user_pass_info.html')
+
+@user_blueprint.route('/collect')
+@login_required
+def collect():
+    return render_template('news/user_collection.html')
+
+@user_blueprint.route('/release')
+@login_required
+def release():
+    return render_template('news/user_news_release.html')
+
+@user_blueprint.route('/newslist')
+@login_required
+def newslist():
+    return render_template('news/user_news_list.html')

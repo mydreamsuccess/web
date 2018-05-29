@@ -1520,3 +1520,1578 @@ INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:08:06] "POST /user/login HTTP
 INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:08:06] "POST /user/login HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:08:06] "POST /user/login HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:08:08] "POST /user/logout HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:00] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:00] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:01] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:01] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:01] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:01] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:06] "GET /user/image_yzm HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:13] "GET /user HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:52] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:52] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:52] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:31:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:32:08] "GET /user.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:32:29] "GET /user.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:32:53] "GET /user/user.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:32:57] "GET /user/user.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:33:09] "GET /news/user.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:33:34] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:33:34] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:33:34] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:33:34] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:33:46] "GET /user.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:39:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:39:43] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:39:43] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:39:44] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:39:44] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:39:58] "GET /user/image_yzm HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:40:05] "GET /user.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:40:15] "GET /news/user.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:40:19] "GET /news/user.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:50:32] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:50:32] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:50:32] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:50:33] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:50:33] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:50:59] "GET /user.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:51:07] "GET /news/user.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:52:35] "GET /user/ HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:52:35] "GET /user/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:52:35] "GET /user/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:52:35] "GET /user/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:52:35] "GET /user/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:52:35] "GET /user/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:53:58] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:53:58] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:53:58] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:53:58] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:12] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/js/jquery.form.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/js/main.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:54:25] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /user/images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:45] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:56] "GET /user/user_pic_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:57] "GET /user/user_pic_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:57] "GET /user/user_pic_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:58] "GET /user/user_follow.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:58] "GET /user/user_follow.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:58] "GET /user/user_follow.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:55:59] "GET /user/user_pass_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:00] "GET /user/user_pass_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:00] "GET /user/user_collection.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:00] "GET /user/user_collection.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:01] "GET /user/user_collection.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:03] "GET /user/user_news_list.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:04] "GET /user/user_news_list.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:04] "GET /user/user_news_list.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:05] "GET /user/user_collection.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:05] "GET /user/user_collection.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:41] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:43] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:45] "GET /static/news/user_pic_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:46] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:56:47] "GET /static/news/user_follow.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:42] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:43] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:44] "GET /user/templates/news/user_pic_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 15:57:45] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:24] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:24] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:24] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:24] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:40] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:50] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:50] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:50] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:50] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:53] "POST /user/logout HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:54] "POST /user/logout HTTP/1.1" 400 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:55] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:55] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:55] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:09:55] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:33:44] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:33:44] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:33:44] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:33:45] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:33:45] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:33:58] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:05] "GET /user/ HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:05] "GET /user/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:05] "GET /user/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:05] "GET /user/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:05] "GET /user/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:05] "GET /user/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:35] "GET /user/ HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:35] "GET /user/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:35] "GET /user/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:35] "GET /user/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:35] "GET /user/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:34:35] "GET /user/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:33] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:33] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:33] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:45] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:49] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:49] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:49] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:49] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:54] "GET /user/base HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:55] "GET /user/pic HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:35:55] "GET /user/follow HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:36:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:36:43] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:36:43] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:36:43] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:36:43] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:36:54] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:36:57] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:36:57] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:36:57] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:37:02] "GET /user/pic HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:05] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:05] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:05] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:05] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:16] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:20] "GET /user/ HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:20] "GET /user/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:20] "GET /user/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:20] "GET /user/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:20] "GET /user/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:49] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:49] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:39:49] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:40:03] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:40:18] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:40:18] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:40:18] "GET /user/user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:40:21] "GET /user/pic HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:35] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:35] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:35] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:36] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:52] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:56] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:56] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:56] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:56] "GET /static/news//js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:44:59] "GET /user/pic HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:01] "GET /user/follow HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:03] "GET /user/pwd HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:04] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:07] "GET /user/pic HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:08] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:53] "GET /static/news//js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:45:55] "GET /user/collect HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:01] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:02] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:02] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:02] "GET /static/news//js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:50] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:50] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:50] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:46:50] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:47:02] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:47:05] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:47:05] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:47:05] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:47:07] "GET /user/pic HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 16:47:51] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/xjxw第一天/views_user.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:02:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:02:43] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:02:43] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:02:43] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:02:55] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:03:00] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:03:00] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:03:00] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:36] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:36] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:36] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:36] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:48] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:52] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:52] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:52] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:21:52] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:27] "GET /user/base?signature=love&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:30] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:31] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:35] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:35] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:58] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:58] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:58] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:58] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:58] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:58] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:58] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:58] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:59] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:59] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:59] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:59] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:22:59] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:23:17] "GET /user/base?signature=love&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:32] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:32] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:32] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:32] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:32] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:44] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:45] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:45] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:26:57] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:03] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:03] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:03] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:19] "GET /user/base?signature=love&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:20] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:21] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:22] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:22] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:23] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:27:23] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:29:56] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:29:56] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:29:56] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:29:56] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:30:06] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:30:11] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:30:11] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:30:11] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:30:23] "GET /user/base?signature=love&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:25] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:25] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:25] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:25] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:31] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:32] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:32] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:32] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:43] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:47] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:47] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:37:47] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:38:01] "GET /user/base?signature=love&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:38:03] "GET /user/base?signature=None&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:39:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:39:52] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:39:52] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:39:52] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:05] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:10] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:10] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:10] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:15] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:40:28] "GET /user/base?signature=love&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:23] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:23] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:23] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:23] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:24] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:39] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:45] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:45] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:45] "GET /user/base HTTP/1.1" 200 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:56] "POST /user/base HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:57] "POST /user/base HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:58] "POST /user/base HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:42:59] "POST /user/base HTTP/1.1" 400 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:47:53] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:47:53] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:47:53] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:47:53] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:05] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:09] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:09] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:09] "GET /user/base HTTP/1.1" 200 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:20] "POST /user/base HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:22] "POST /user/base HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:22] "POST /user/base HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:22] "POST /user/base HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:23] "POST /user/base HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:48:23] "POST /user/base HTTP/1.1" 400 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:49:48] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:49:48] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:49:48] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:49:48] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:49:59] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:50:04] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:50:04] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:50:04] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:50:20] "POST /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:51:22] "POST /user/logout HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:51:22] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:51:22] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:51:22] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:51:22] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 17:51:32] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:47:48] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:47:49] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:47:49] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:47:49] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:47:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:08] "GET /user/ HTTP/1.1" 302 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:08] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:08] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:08] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:08] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:08] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:16] "GET /user/ HTTP/1.1" 302 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:16] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:16] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:16] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:16] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:16] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:27] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:27] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:27] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:27] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:40] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:46] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:46] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:46] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:49] "GET /user/pic HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:51] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 18:48:52] "GET /user/pic HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:00:39] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:00:40] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:00:40] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:00:40] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:00:51] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:00:57] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:00:57] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:00:57] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:00] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:00] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:00] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:00] "GET /user/js/user_pic_info.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:00] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:01] "GET /user/follow HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:01] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:01] "GET /user/css/jquery.pagination.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:01] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:01] "GET /user/js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:01] "GET /user/js/jquery.pagination.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:01] "GET /user/js/user_follow.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:01] "GET /user/images/cat.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:03] "GET /user/pwd HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:03] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:03] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:03] "GET /user/js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:03] "GET /user/js/user_pass_info.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/collect HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/jquery.pagination.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/js/jquery.pagination.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/release HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:05] "GET /user/js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:06] "GET /user/tinymce/js/tinymce/tinymce.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:06] "GET /user/js/tinymce_setup.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:06] "GET /user/js/user_news_release.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:06] "GET /user/newslist HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:06] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:06] "GET /user/css/jquery.pagination.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:06] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:06] "GET /user/js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:06] "GET /user/js/jquery.pagination.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:12] "GET /user/follow HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:12] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:12] "GET /user/css/jquery.pagination.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:12] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:12] "GET /user/js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:12] "GET /user/js/jquery.pagination.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:12] "GET /user/js/user_follow.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:01:12] "GET /user/images/cat.jpg HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:01] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:01] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:01] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:14] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:19] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:19] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:20] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:20] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:23] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:23] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:23] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:23] "GET /user/js/user_pic_info.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:02:23] "GET /user/images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:34] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:34] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:34] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:35] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:36] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:36] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:36] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:36] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:37] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:39] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 19:04:39] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:11] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:12] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:12] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:12] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:12] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:13] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:13] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:13] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:32] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:37] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:37] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:38] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:38] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:41] "GET /user/pic HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:41] "GET /user/pic?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:41] "GET /user/pic?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:41] "GET /user/pic?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:06:41] "GET /user/pic?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:07:16] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:07:16] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:07:16] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:07:16] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:07:28] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:07:32] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:07:32] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:07:33] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:07:36] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:08:13] "GET /user/pic?avatar=cat.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:08:14] "GET /user/pic?avatar= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:08:43] "GET /user/pic?avatar=cat.jpg HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:14:38] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:14:38] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:14:38] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:14:39] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:14:50] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:14:53] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:14:53] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:14:53] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:15:01] "GET /user/pic HTTP/1.1" 200 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:15:06] "POST /user/pic HTTP/1.1" 400 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:28] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:28] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:28] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:28] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:41] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:45] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:45] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:45] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:48] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:55] "POST /user/pic HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:55] "GET /user/pic?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:55] "GET /user/pic?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:55] "GET /user/pic?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:16:55] "GET /user/pic?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:18:41] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:18:41] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:18:41] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:18:41] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:18:52] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:19:00] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:19:00] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:19:00] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:19:03] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:19:07] "POST /user/pic HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:19:07] "GET /user/pic?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:19:07] "GET /user/pic?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:19:07] "GET /user/pic?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:19:07] "GET /user/pic?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:16] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:16] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:16] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:16] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:27] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:33] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:33] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:33] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:37] "GET /user/pic HTTP/1.1" 200 -
+DEBUG connectionpool.py:824 Starting new HTTPS connection (1): uc.qbox.me
+DEBUG connectionpool.py:396 https://uc.qbox.me:443 "GET /v1/query?ak=H999S3riCJGPiJOity1GsyWufw3IyoMB6goojo5e&bucket=itcast20171104 HTTP/1.1" 200 239
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:43] "POST /user/pic HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:43] "GET /user/pic?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:43] "GET /user/pic?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:43] "GET /user/pic?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:22:43] "GET /user/pic?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:28:42] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:28:42] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:28:42] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:28:42] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:28:55] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:28:55] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:00] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:00] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:00] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:00] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:00] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:00] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:12] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:17] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:17] "GET /user/%3Cbound%20method%20UserInfo.avatar_url%20of%20%3CUserInfo%206%3E%3E HTTP/1.1" 404 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:23] "POST /user/pic HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:23] "GET /user/pic?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:23] "GET /user/pic?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:23] "GET /user/pic?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:29:23] "GET /user/pic?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:30:53] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:30:53] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:30:53] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:30:54] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:04] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:04] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:09] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:09] "GET /user/%3Cbound%20method%20UserInfo.avatar_url%20of%20%3CUserInfo%206%3E%3E HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:09] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:09] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /user/%3Cbound%20method%20UserInfo.avatar_url%20of%20%3CUserInfo%206%3E%3E HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:31:16] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:06] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:06] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:06] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:06] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:06] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:11] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:23] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:23] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:29] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:29] "GET /user/%3Cbound%20method%20UserInfo.avatar_url%20of%20%3CUserInfo%206%3E%3E HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:29] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:29] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:37] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:37] "GET /user/%3Cbound%20method%20UserInfo.avatar_url%20of%20%3CUserInfo%206%3E%3E HTTP/1.1" 404 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:42] "POST /user/pic HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:42] "GET /user/pic?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:42] "GET /user/pic?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:42] "GET /user/pic?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 20:34:42] "GET /user/pic?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:49] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:49] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:49] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:54] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:54] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:11:55] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:12:06] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:12:06] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:12:12] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:12:12] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:12:12] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:12:32] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:12:32] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:12:55] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:19] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:19] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:19] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:19] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:19] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:19] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:20] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:20] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:20] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:20] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:20] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:20] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:20] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:24] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:30] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:31] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:31] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:34] "GET /user/pic HTTP/1.1" 200 -
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:13:40] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:03] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:03] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:03] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:03] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:03] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:03] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:03] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:04] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:04] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:17] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:17] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:23] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:23] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:23] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:26] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:18:43] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:29:47] "GET /user/pic HTTP/1.1" 200 -
+DEBUG connectionpool.py:243 Resetting dropped connection: up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:29:54] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:31:59] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:02] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:02] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:02] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:02] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:02] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:02] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:02] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:03] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:03] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:03] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:03] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:03] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:03] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:09] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:09] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:32:18] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:10] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:10] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:10] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:10] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:10] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:10] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:11] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:11] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:11] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:11] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:11] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:11] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:12] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:12] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:12] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:12] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:12] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:12] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:12] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:16] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:16] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:33:21] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:09] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:09] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:09] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:10] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:19] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:19] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:25] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:25] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:25] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:27] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:39] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:44] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:44] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:44] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:44] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:45] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:45] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:45] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:45] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:45] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:45] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:45] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:45] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:45] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:36:47] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:37:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:37:50] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:37:50] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:37:50] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:37:59] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:37:59] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:37:59] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:00] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:01] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:11] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:11] "GET /static/news/images/FvcTlMWbps0waKZuvz9lUm6R36AA HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:26] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:26] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:26] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:29] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:37] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:37] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:38:42] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:40:56] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:40:56] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:40:56] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:40:57] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:08] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:08] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:14] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:14] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:14] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:16] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:24] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:30] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:41:32] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:43:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:43:52] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:43:52] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:43:53] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:05] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:05] "GET /static/news/images/FvcTlMWbps0waKZuvz9lUm6R36AA HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:07] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:20] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:20] "GET /static/news/images/FvcTlMWbps0waKZuvz9lUm6R36AA HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:30] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:30] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:30] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:35] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:41] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:45] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:45] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:45] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:45] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:45] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:45] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:45] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:45] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:45] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:46] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:46] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:46] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:46] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:50] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:44:53] "GET /user/pic HTTP/1.1" 200 -
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:04] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:07] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:45:09] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:41] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:41] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:41] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:41] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:49] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:57:51] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:03] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:03] "GET /static/news/images/FvcTlMWbps0waKZuvz9lUm6R36AA HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:29] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:31] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:41] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:41] "GET /static/news/images/FvcTlMWbps0waKZuvz9lUm6R36AA HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:46] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:46] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:46] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:48] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:48] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:48] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:48] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:48] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:48] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:48] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:48] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:48] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 21:58:49] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:37] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:37] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:37] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:37] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:37] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:50] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:50] "GET /static/news/images/FvcTlMWbps0waKZuvz9lUm6R36AA HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:54] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:54] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:54] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:20:57] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:04] "POST /user/pic HTTP/1.1" 200 -
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:34] "POST /user/pic HTTP/1.1" 200 -
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:36] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:43] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:45] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:45] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:49] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:49] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:49] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:49] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:49] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:49] "GET /static/news/js/user_pic_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:51] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:51] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:51] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:51] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:51] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:21:51] "GET /static/news/js/user_pic_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:04] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:04] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:04] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:04] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:04] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:04] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:04] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:04] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:04] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:05] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:05] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:05] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:05] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:12] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:14] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:14] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:14] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:14] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:14] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:14] "GET /static/news/js/user_pic_info.js HTTP/1.1" 304 -
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:22:21] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:20] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:20] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:20] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:20] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:33] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:33] "GET /static/news/images/FvcTlMWbps0waKZuvz9lUm6R36AA HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:37] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:37] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:37] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:42] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:42] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:44] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:44] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:44] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:44] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:44] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:44] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:54] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:23:56] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:24:04] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:49] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:49] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:49] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:49] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:49] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:49] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:49] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:49] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:49] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:50] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:50] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:50] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:50] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:51] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:53] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:53] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:53] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:57] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:57] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:57] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:57] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:57] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:58] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:28:59] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:02] "GET /user/pic HTTP/1.1" 200 -
+DEBUG connectionpool.py:243 Resetting dropped connection: up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:06] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:30] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:34] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:34] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:29:43] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:17] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:25] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:28] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:28] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:28] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:28] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:28] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:28] "GET /static/news/js/user_pic_info.js HTTP/1.1" 304 -
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:30:32] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/xjxw第一天/views_user.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:33:47] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:33:49] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:33:49] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:33:49] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:33:49] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:33:50] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:33:50] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:33:50] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:20] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:21] "GET /user/follow HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:21] "GET /user/css/jquery.pagination.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:21] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:21] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:21] "GET /user/js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:21] "GET /user/js/jquery.pagination.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:21] "GET /user/js/user_follow.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:21] "GET /user/images/cat.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:22] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:22] "GET /user/follow HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:22] "GET /user/css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:22] "GET /user/css/jquery.pagination.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:22] "GET /user/css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:22] "GET /user/js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:22] "GET /user/js/jquery.pagination.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:22] "GET /user/js/user_follow.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:23] "GET /user/images/cat.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:25] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:27] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:27] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:27] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:27] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:27] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:27] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:29] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:29] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:29] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:29] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:29] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:29] "GET /static/news/js/user_pic_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:31] "GET /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:31] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:31] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:31] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:31] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:31] "GET /static/news/js/user_pic_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:42] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:44] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:36:49] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:44:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:44:52] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:44:52] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:44:52] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:44:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:45:11] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:45:11] "GET /static/news/images/FojsMT25tokQVCT4zPQdWV1H3gkY HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:45:20] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:45:20] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:45:20] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:45:25] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:45:29] "POST /user/pic HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 146-029-768
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:55:56] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:55:57] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:55:57] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:55:57] "GET /user/image_yzm?1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:55:57] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:56:07] "POST /user/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:56:07] "GET /static/news/images/FpqWjz9yjBvzIHhTvJvDrDZyuoBr HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:56:10] "GET /user/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:56:10] "GET /user/images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:56:11] "GET /user/base HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:56:14] "GET /user/pic HTTP/1.1" 200 -
+DEBUG retry.py:200 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:208 Starting new HTTP connection (1): up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:56:21] "POST /user/pic HTTP/1.1" 200 -
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:88 127.0.0.1 - - [29/May/2018 22:56:27] "POST /user/pic HTTP/1.1" 200 -

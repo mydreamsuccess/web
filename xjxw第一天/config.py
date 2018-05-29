@@ -22,10 +22,10 @@ class Config(object):
     #获取文件路径
     BASE_DIR=os.path.dirname(os.path.abspath(__file__))
     # 变量名不变 七牛云配置
-    # QINU_AK='Fwp5Pua_-cWafzw4yi7WmWdk5AP-sQSJWQwBL_7x'
-    # QINU_SK='BdL_waCxtp63z3_lqO-jXPBirmZmaiuXHDlmsGyN'
-    # QINIU_BUCKET=''
-    # QINIU_URL=''
+    QINIU_AK = 'H999S3riCJGPiJOity1GsyWufw3IyoMB6goojo5e'
+    QINIU_SK = 'uOZfRdFtljIw7b8jr6iTG-cC6wY_-N19466PXUAb'
+    QINIU_BUCKET = 'itcast20171104'
+    QINIU_URL = 'http://oyvzbpqij.bkt.clouddn.com/'
 
 class DevelopConfig(Config):
     DEBUG = True

@@ -1,4 +1,5 @@
 import pymysql
+from flask import current_app
 from werkzeug.security import generate_password_hash, check_password_hash
 
 pymysql.install_as_MySQLdb()
@@ -130,6 +131,9 @@ class UserInfo(db.Model,BaseModel):
 
     def check_pwd(self, pwd):
         return check_password_hash(self.password_hash, pwd)
+    @property
+    def avatar_url(self):
+        return current_app.config.get('QINIU_URL') + self.avatar
 
     # @property
     # def avatar_url(self):

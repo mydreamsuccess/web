@@ -94,9 +94,12 @@ $(function(){
     $('#logout').click(function () {
         $.post('/user/logout',{'csrf_token':$("#csrf_token").val()},function (data){
             if(data.result==1){
+                if (location.pathname=="/user/"){
+                    location.href="/"
+                }else {
                 $('.user_btns').show();
                 $('.user_login').hide();
-            }
+            }}
         })
     });
     // TODO 登录表单提交
