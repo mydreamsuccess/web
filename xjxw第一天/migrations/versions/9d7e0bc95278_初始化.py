@@ -1,8 +1,8 @@
 """初始化
 
-Revision ID: 5664684a7b36
+Revision ID: 9d7e0bc95278
 Revises: 
-Create Date: 2018-05-26 21:55:00.255166
+Create Date: 2018-05-28 14:46:10.338625
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '5664684a7b36'
+revision = '9d7e0bc95278'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -85,10 +85,10 @@ def upgrade():
     )
     op.create_table('tb_user_news',
     sa.Column('user_id', sa.Integer(), nullable=False),
-    sa.Column('new_id', sa.Integer(), nullable=False),
-    sa.ForeignKeyConstraint(['new_id'], ['news_info.id'], ),
+    sa.Column('news_id', sa.Integer(), nullable=False),
+    sa.ForeignKeyConstraint(['news_id'], ['news_info.id'], ),
     sa.ForeignKeyConstraint(['user_id'], ['user_info.id'], ),
-    sa.PrimaryKeyConstraint('user_id', 'new_id')
+    sa.PrimaryKeyConstraint('user_id', 'news_id')
     )
     # ### end Alembic commands ###
 

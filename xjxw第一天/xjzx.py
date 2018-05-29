@@ -1,4 +1,5 @@
 # 导入扩展命令包
+from flask.ext.wtf import CSRFProtect
 from flask_script import Manager
 # 导入app对象
 from app import create_app
@@ -16,7 +17,7 @@ db.init_app(app)
 # 进行迁移命令
 Migrate(app,db)
 manager.add_command('db',MigrateCommand)
-
+CSRFProtect(app)
 
 
 
