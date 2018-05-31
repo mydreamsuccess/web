@@ -10,8 +10,8 @@ from datetime import datetime
 db=SQLAlchemy()
 
 class BaseModel(object):
-    create_time=db.Column(db.DateTime,default=datetime.now())
-    update_time=db.Column(db.DateTime,default=datetime.now())
+    create_time=db.Column(db.DateTime,default=datetime.now)
+    update_time=db.Column(db.DateTime,default=datetime.now)
     isDelete=db.Column(db.Boolean,default=False)
 
 tb_news_collect=db.Table(

@@ -1,4 +1,6 @@
 import re
+
+from  datetime import datetime
 from flask import Blueprint,make_response,session
 from flask import current_app,render_template
 
@@ -7,10 +9,11 @@ from utils.ytx_sdk import ytx_send
 from flask import request
 from flask import jsonify
 import random
-from models import db,UserInfo
+from models import db,UserInfo,NewsInfo,NewsCategory
 user_blueprint=Blueprint('user',__name__,url_prefix='/user')
 import functools
 from flask import redirect
+from utils.qiniu_xjzx import upload_pic
 @user_blueprint.route('/image_yzm')
 def image_yzm():
     name,yzm,buffer=captcha.generate_captcha()
@@ -138,7 +141,11 @@ def base():
         print(nick_name)
         user.signature=signature
         user.nick_name=nick_name
-        user.gender=bool(gender)
+        if gender == 'True':
+            gender = True
+        else:
+            gender = False
+        user.gender = gender  # True if gender=='True' else False
         # print("22222222222")
         try:
             db.session.commit()
@@ -166,24 +173,123 @@ def pic():
 @user_blueprint.route('/follow')
 @login_required
 def follow():
-    return render_template('news/user_follow.html')
+    user_id=session['user_id']
+    user=UserInfo.query.get(user_id)
+    page=int(request.args.get("page","1"))
+    pagination=user.follow_user.paginate(page,4,False)
+    user_list=pagination.items
+    total_page=pagination.pages
+    print(total_page)
 
-@user_blueprint.route('/pwd')
+    return render_template('news/user_follow.html',user_list=user_list,total_page=total_page,page=page)
+
+@user_blueprint.route('/pwd',methods=["GET","POST"])
 @login_required
 def pwd():
-    return render_template('news/user_pass_info.html')
+    if request.method=="GET":
+        return render_template('news/user_pass_info.html')
+    elif request.method=='POST':
+        msg="修改成功"
+        dict1=request.form
+        current_pwd=dict1.get("current_pwd")
+        new_pwd=dict1.get("new_pwd")
+        new_pwd2=dict1.get('new_pwd2')
+        print(current_pwd)
+        print(new_pwd)
+        print(new_pwd2)
+        if not all([current_pwd,new_pwd2,new_pwd]):
+            return render_template("news/user_pass_info.html",msg="密码不能为空")
+        if not re.match(r"[a-zA-Z0-9_]{6,20}",current_pwd):
+            return render_template("news/user_pass_info.html",msg="当前密码错误")
+        if not re.match(r"[a-zA-Z0-9_]{6,20}",new_pwd):
+            return render_template("news/user_pass_info.html",msg="新密码格式错误（长度为6-20，内容为大小写a-z字母，0-9数字，下划线_）")
+        if new_pwd !=new_pwd2:
+            return render_template("news/user_pass_info.html",msg="两个新密码不一致")
+        user_id=session["user_id"]
+        user=UserInfo.query.get(user_id)
+        if not user.check_pwd(current_pwd):
+            return render_template("news/user_pass_info.html",msg="当前密码错误")
+        user.password=new_pwd
+        db.session.commit()
+        return render_template("news/user_pass_info.html",msg="密码修改成功")
+
 
 @user_blueprint.route('/collect')
 @login_required
 def collect():
-    return render_template('news/user_collection.html')
+    user_id=session["user_id"]
+    user=UserInfo.query.get(user_id)
+    page=int(request.args.get('page','1'))
+    pagination=user.news_collect.order_by(NewsInfo.id.desc()).paginate(page,6,False)
+    news_list=pagination.items
+    total_page=pagination.pages
+    return render_template('news/user_collection.html',news_list=news_list,total_page=total_page,page=page)
 
-@user_blueprint.route('/release')
+@user_blueprint.route('/release',methods=["GET","POST"])
 @login_required
 def release():
-    return render_template('news/user_news_release.html')
+    category_list = NewsCategory.query.all()
+    news_id=request.args.get("news_id")
+    print(news_id)
+    if request.method=="GET":
+        if news_id is None:
+            print("1212")
+            return render_template('news/user_news_release.html',category_list=category_list,news=None)
+        else:
+            news=NewsInfo.query.get(int(news_id))
+            print("121214")
+            return render_template("news/user_news_release.html",category_list=category_list,news=news)
+    elif request.method=="POST":
+        dict1=request.form
+        title=dict1.get("title")
+        category_id=dict1.get("category")
+        summary=dict1.get("summary")
+        content=dict1.get("content")
+        news_pic=request.files.get("news_pic")
+        print(title)
+        print(category_id)
+        print(summary)
+        print(content)
+        print(news_pic)
+        if news_id is None:
+            if not all([title,category_id,summary,content,news_pic]):
+                return render_template("news/user_news_release.html",category_list=category_list,msg="请将数据填写完整")
+        else:
+            if not all([title,category_id,summary,content]):
+                return render_template("news/user_news_release.html",category_list=category_list,msg="请将数据填写完整")
+        if news_pic:
+            filename=upload_pic(news_pic)
+        if news_id is None:
+            news=NewsInfo()
+
+        else:
+            news=NewsInfo.query.get(news_id)
+        news.category_id=int(category_id)
+        if news_pic:
+            news.pic=filename
+        print("11111111111111111111111111111")
+        news.title=title
+        news.summary=summary
+        news.content=content
+        news.status=1
+        news.update_time=datetime.now()
+        news.user_id=session["user_id"]
+        print("22222222222222222222222222222222")
+        db.session.add(news)
+        print("555555555555555555555555555555")
+        db.session.commit()
+        print("88888888888888888888888")
+
+        return redirect("/user/newslist")
+
 
 @user_blueprint.route('/newslist')
 @login_required
 def newslist():
-    return render_template('news/user_news_list.html')
+    user_id=session["user_id"]
+    user=UserInfo.query.get(user_id)
+    page=int(request.args.get('page','1'))
+    pagination=user.news.order_by(NewsInfo.id.desc()).paginate(page,6,False)
+    news_list=pagination.items
+    total_page=pagination.pages
+    return render_template('news/user_news_list.html',news_list=news_list,page=page,total_page=total_page)

@@ -1,4 +1,4 @@
-import  redis
+import redis
 import os
 
 
@@ -15,7 +15,9 @@ class Config(object):
 
 #     session
     SECRET_KEY='itheima'
-    SESSION_TYPR="redis"  #指定session保存到rides中
+
+
+    SESSION_TYPE="redis"  #指定session保存到rides中
     SESSION_USE_SIGNER=True #唯一签名，通过键和值来从rides中取值
     SESSION_REDIS=redis.StrictRedis(host=REDIS_HOST,port=REDIS_POTR,db=REDIS_DB)
     PERMANANT_SESSION_LIFETIME=60*60*24*14 #session 有效期
