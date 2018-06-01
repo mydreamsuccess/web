@@ -10,8 +10,8 @@
         <ul class="card_list_con">
             {% for user in user_list %}
             <li class="author_card card_list">
-                <a href="{{ user.id }}" target="_blank" class="author_pic"><img src="{{ user.avatar_url }}" alt="author_pic"></a>
-                <a href="{{ user_id }}" target="_blank" class="author_name">{{ user.nick_name }}</a>
+                <a href="/user/{{ user.id }}" target="_blank" class="author_pic"><img src="{{ user.avatar_url }}" alt="author_pic"></a>
+                <a href="/user/{{ user_id }}" target="_blank" class="author_name">{{ user.nick_name }}</a>
                 <div class="author_resume">{{ user.signature }}</div>
                 <div class="writings"><span>总篇数</span><b>{{ user.public_count }}</b></div>
                 <div class="follows"><span>粉丝</span><b>{{ user.follow_count }}</b></div>

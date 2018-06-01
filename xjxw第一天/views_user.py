@@ -93,7 +93,7 @@ def login():
     if user:
         if user.check_pwd(pwd):
             session['user_id']=user.id
-            return jsonify(result=3,avatar=user.avatar,nick_name=user.nick_name)
+            return jsonify(result=3,avatar=user.avatar_url,nick_name=user.nick_name)
         else:
             return jsonify(result=4)
     else:
@@ -253,7 +253,7 @@ def release():
         print(news_pic)
         if news_id is None:
             if not all([title,category_id,summary,content,news_pic]):
-                return render_template("news/user_news_release.html",category_list=category_list,msg="请将数据填写完整")
+                return render_template("news/user_news_release.html",category_list=category_list,msg="请将数据填写完整",news=None)
         else:
             if not all([title,category_id,summary,content]):
                 return render_template("news/user_news_release.html",category_list=category_list,msg="请将数据填写完整")

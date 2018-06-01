@@ -132,7 +132,7 @@ $(function(){
                 $('.login_form_con').hide();
                 $('.user_btns').hide();
                 $('.user_login').show();
-                $('.lgin_pic').attr('src','/static/news/images/'+ data.avatar)
+                $('.lgin_pic').attr('src', data.avatar)
                 $('#nick_name').text(data.nick_name);
             }else if(data.result==4){
                 alert('密码错误')
