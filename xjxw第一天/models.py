@@ -67,7 +67,7 @@ class NewsInfo(db.Model, BaseModel):
     reason=db.Column(db.String(100),default='')
     #news.comments
     comments = db.relationship('NewsComment', backref='news', lazy='dynamic', order_by='NewsComment.id.desc()')
-
+    news_collect=db.relationship('NewsInfo',secondary=tb_news_collect,lazy='dynamic')
     @property
     def pic_url(self):
         return current_app.config.get('QINIU_URL')+self.pic

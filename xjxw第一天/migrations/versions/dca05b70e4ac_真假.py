@@ -1,8 +1,8 @@
-"""初始化
+"""真假
 
-Revision ID: 9d7e0bc95278
+Revision ID: dca05b70e4ac
 Revises: 
-Create Date: 2018-05-28 14:46:10.338625
+Create Date: 2018-06-02 20:56:24.618903
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '9d7e0bc95278'
+revision = 'dca05b70e4ac'
 down_revision = None
 branch_labels = None
 depends_on = None

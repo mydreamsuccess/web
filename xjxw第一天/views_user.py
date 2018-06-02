@@ -127,9 +127,9 @@ def index():
 def base():
     user_id=session["user_id"]
     user=UserInfo.query.get(user_id)
-    # print("111111111111111111111111111111111")
+    print("111111111111111111111111111111111")
     if request.method=='GET':
-        # print("999999999999999999999999")
+        print("999999999999999999999999")
         return render_template("news/user_base_info.html",user=user)
 
     elif request.method=='POST':
@@ -137,8 +137,11 @@ def base():
         signature=dict1.get('signature')
         nick_name=dict1.get('nick_name')
         gender=dict1.get('gender')
+        # print(45454)
         print(signature)
         print(nick_name)
+        print(gender)
+        # print(7878)
         user.signature=signature
         user.nick_name=nick_name
         if gender == 'True':
@@ -152,7 +155,7 @@ def base():
         except:
             current_app.logger_xjzx.error('修改用户基本信息连接数据库失败')
             return jsonify(result=2)
-        print("8888888888")
+        # print("8888888888")
         return jsonify(result=1)
 
 @user_blueprint.route('/pic',methods=['GET','POST'])
@@ -267,18 +270,18 @@ def release():
         news.category_id=int(category_id)
         if news_pic:
             news.pic=filename
-        print("11111111111111111111111111111")
+        # print("11111111111111111111111111111")
         news.title=title
         news.summary=summary
         news.content=content
         news.status=1
         news.update_time=datetime.now()
         news.user_id=session["user_id"]
-        print("22222222222222222222222222222222")
+        # print("22222222222222222222222222222222")
         db.session.add(news)
-        print("555555555555555555555555555555")
+        # print("555555555555555555555555555555")
         db.session.commit()
-        print("88888888888888888888888")
+        # print("88888888888888888888888")
 
         return redirect("/user/newslist")
 
