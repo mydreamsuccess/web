@@ -11,7 +11,7 @@ class Config(object):
 #
 #     redis配置
     REDIS_HOST="localhost"
-    REDIS_POTR="6379"
+    REDIS_PORT="6379"
     REDIS_DB=9
 
 #     session
@@ -20,7 +20,7 @@ class Config(object):
 
     SESSION_TYPE="redis"  #指定session保存到rides中
     SESSION_USE_SIGNER=True #唯一签名，通过键和值来从rides中取值
-    SESSION_REDIS=redis.StrictRedis(host=REDIS_HOST,port=REDIS_POTR,db=REDIS_DB)
+    SESSION_REDIS=redis.StrictRedis(host=REDIS_HOST,port=REDIS_PORT,db=REDIS_DB)
     PERMANANT_SESSION_LIFETIME=60*60*24*14 #session 有效期
     #获取文件路径
     BASE_DIR=os.path.dirname(os.path.abspath(__file__))

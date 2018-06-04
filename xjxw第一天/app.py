@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,render_template
 
 # 引入python自带的包
 import logging
@@ -45,5 +45,16 @@ def create_app(config):
     # 为全局的日志工具对象（flask app使用的）添加日志记录器
     logging.getLogger().addHandler(file_log_handler)
     app.logger_xjzx = logging
+
+    host = app.config.get('REDIS_HOST')
+    port = app.config.get('REDIS_PORT')
+    db_redis = app.config.get('REDIS_DB')
+    # 将用户对评论存储到redis中
+    import redis
+    app.redis_client = redis.StrictRedis(host=host, port=port, db=db_redis)
+
+    @app.errorhandler(404)
+    def handle404(e):
+        return render_template('news/404.html')
 
     return app
