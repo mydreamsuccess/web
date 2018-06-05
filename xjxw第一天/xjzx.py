@@ -7,6 +7,7 @@ from app import create_app
 from config import DevelopConfig
 # 导入数据库对象
 from models import db
+from super_command import CreateAdminCommand,UserNumCommand,HourLoginCommand
 # 导入迁移包
 from flask_migrate import Migrate,MigrateCommand
 app=create_app(DevelopConfig)
@@ -18,7 +19,10 @@ db.init_app(app)
 Migrate(app,db)
 manager.add_command('db',MigrateCommand)
 CSRFProtect(app)
+manager.add_command('createadmin',CreateAdminCommand)
 
+manager.add_command('usernum',UserNumCommand)
+manager.add_command('hourlogin',HourLoginCommand)
 
 
 if __name__ == '__main__':

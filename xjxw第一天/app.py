@@ -22,6 +22,7 @@ def create_app(config):
     app.register_blueprint(news_blueprint)
     app.register_blueprint(user_blueprint)
 
+
     # 设置日志等级
     # logging.basicConfig(level=logging.DEBUG)
     # file_log_hander=RotatingFileHandler(config.BASE_DIR+"/logs/xjzx.log",maxBytes=1024*1024*100,backupCount=10)

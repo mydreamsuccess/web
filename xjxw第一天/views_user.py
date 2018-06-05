@@ -80,6 +80,32 @@ def register():
     # print("6666666666666666666666666666666666666666")
     return jsonify(result=7)
 
+def login_hour_count():
+    now=datetime.now()
+    keys="login%d_%d_%d" % (now.year,now.month,now.day)
+    login_prop=['08:15', '09:15', '10:15', '11:15', '12:15', '13:15', '14:15', '15:15', '16:15', '17:15', '18:15', '19:15']
+    for index,item in enumerate(login_prop):
+        if now.hour<index+8 or(now.hour==index+8 and now.minute>15):
+            count=current_app.redis_client.hget(keys, item)
+            if count is None:
+                count =1
+            else:
+                count=int(count)
+                count +=1
+            current_app.redis_client.hset(keys,item,count)
+            break
+    # if now.hour>=9 and now.minute>=15:
+    #     count = int(current_app.redis_client.hget(keys, "19:15"))
+    #     count += 1
+    #     current_app.redis_client.hset(keys, "19:15", count)
+    else:
+        count = current_app.redis_client.hget(keys, '19:15')
+        if count is None:
+            count = 1
+        else:
+            count = int(count)
+            count += 1
+        current_app.redis_client.hset(keys, "19:15", count)
 
 @user_blueprint.route('/login',methods=['Post'])
 def login():
@@ -92,6 +118,7 @@ def login():
     user=UserInfo.query.filter_by(mobile=mobile).first()
     if user:
         if user.check_pwd(pwd):
+            login_hour_count()
             session['user_id']=user.id
             return jsonify(result=3,avatar=user.avatar_url,nick_name=user.nick_name)
         else:
