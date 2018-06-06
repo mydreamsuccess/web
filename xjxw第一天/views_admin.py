@@ -1,8 +1,8 @@
 
 from flask import Blueprint
 from flask import g
-from flask import request,current_app
-from models import UserInfo
+from flask import request,current_app,jsonify
+from models import UserInfo,NewsInfo
 from flask import render_template,redirect,abort,session
 from datetime import datetime
 
@@ -60,6 +60,22 @@ def new_edit():
 @admin_blueprint.route('/news_review')
 def news_review():
     return render_template("admin/news_review.html")
+@admin_blueprint.route('/news_review_json')
+def news_review_json():
+    page=request.args.get('page','1')
+    pagination=NewsInfo.query.order_by(NewsInfo.id.desc()).paginate(page,'10',False)
+    news_list=pagination.items
+    total_page=pagination.items
+    news_list1 = []
+    for news in news_list:
+        news_dict1 = {
+            "id":news.id,
+            "title":news.title,
+            "create_time":news.create_time.strftime('%Y-%m-%d %H:%M:%S'),
+            "status":news.status
+        }
+        news_list1.append(news_dict1)
+    return jsonify(news_list=news_list1,total_page=total_page)
 
 
 @admin_blueprint.route('/user_count')
@@ -96,3 +112,11 @@ def logout():
     del session['admin_user_id']
     # print(1111)
     return redirect('/admin/login')
+
+@admin_blueprint.route('/news_review_detail')
+def news_review_detail():
+    return render_template("admin/news_review_detail.html")
+
+@admin_blueprint.route('/news_edit_detail')
+def news_edit_detail():
+    return render_template("admin/news_edit_detail.html")
