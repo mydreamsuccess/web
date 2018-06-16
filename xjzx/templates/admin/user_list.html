@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'admin/head.html' %}
+</head>
+<body>
+    <div class="breadcrub">
+            当前位置：用户管理>用户列表
+        </div>
+        <div class="pannel">
+            <table class="common_table">
+                <tr>
+                    <th>用户名</th>
+                    <th>电话</th>
+                    <th>注册时间</th>
+                    <th>上次登录时间</th>
+                </tr>
+                {% for user in user_list1 %}
+                <tr>
+                    <td>{{ user.nick_name }}</td>
+                    <td>{{ user.mobile }}</td>
+                    <td>{{ user.create_time }}</td>
+                    <td>{{ user.update_time }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <div class="box">
+            <div id="pagination" class="page"></div>
+        </div>
+
+        <script>
+            $(function() {
+                $("#pagination").pagination({
+                    currentPage: {{ page }},
+                    totalPage: {{ total_page }},
+                    callback: function(current) {
+                        location.href='?page='+current;
+                    }
+                });
+            });
+        </script>
+</body>
+</html>
